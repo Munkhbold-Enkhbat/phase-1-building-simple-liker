@@ -3,6 +3,12 @@ const EMPTY_HEART = '♡'
 const FULL_HEART = '♥'
 
 // Your JavaScript code goes here!
+document.getElementById('modal').className = 'hidden'
+const like = document.getElementsByClassName('like')
+for(let i = 0; i < like.length; i++) {
+
+}
+
 
 
 
