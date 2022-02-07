@@ -16,14 +16,11 @@ for(let i = 0; i < like.length; i++) {
       let heart = like[i].lastChild
       
       if(heart.innerHTML === EMPTY_HEART){
-        heart.innerHTML = FULL_HEART
-        heart.classList.add('.activated-heart')
-        // console.log(heart);
-        
+        heart.innerHTML = FULL_HEART        
+        heart.classList.add('activated-heart')
       } else {
         heart.innerHTML = EMPTY_HEART
-        heart.classList.remove('.activated-heart')
-        // console.log(EMPTY_HEART);
+        heart.classList.remove('activated-heart')
       }      
     })
     .catch(() => {
